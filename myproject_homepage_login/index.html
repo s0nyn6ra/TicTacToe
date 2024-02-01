@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>Welcome to my site!</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="login.js"></script>
+    <title>Sign in to your account</title>
+    <script>
+        const test = document.getElementById("container")
+        console.log({document});
+        console.log({test});
+    </script>
+</head>
+<body>
+    <div class="container" id="container">
+        <h2>Sign in to your account</h2>
+        <br><br>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Your password" required><br><br>
+            <button type="button" id="login_button" onclick="login()">Sign in</button>
+        </form>
+    </div>
+</body>
+<h4>Username for test: sofia123</h3>
+<h4>Password for test: 12345</h3>
+
+</html>
